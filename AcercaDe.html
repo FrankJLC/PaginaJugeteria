@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -9,6 +10,29 @@
     <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+  <a class="col-4 navbar-brand" href="#">Angelitos</a>
+  <button class=" col-3 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <form class="form-inline my-2 my-lg-0 col-md-4">
+      <input class="form-control mr-sm-2 col-md-8" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-dark my-1 my-sm-0 " type="submit">Search</button>
+    </form>
+    <ul class="navbar-nav col-md-8 col-6 nav justify-content-end">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+    </nav>
     <div class="container">
       <div class="row bg-light p-md-5 p-4 rounded">
         <div class="col-sm-12">
@@ -31,13 +55,14 @@
           <br></br>
           <button type="button" name="butto" class="btn btn-outline-primary">send</button>
           <br></br>
+          <br></br>
         </div>
         <!-- /.col-md-6 -->
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-12">
           <br></br>
           <h5>Informacion de contacto</h5>
           <hr/>
-          <i class="fas fa-map-marker-alt"> Ubicacion</i>
+          <i class="fas fa-map-marker-alt"> Ubicación</i>
           <p>Agustín A. Cacho 307, Centro de la Ciudad, 75700 Tehuacán, Pue.</p>
           <i class="fas fa-envelope"> Correo</i>
           <p>jugeteria_angelitos@gmail.com</p>
@@ -45,9 +70,9 @@
           <p>238245212</p>
         </div>
         <!-- /.col-md-3 -->
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-3 col-sm-12">
           <br></br>
-          <h5>Horarios de atencion</h5>
+          <h5>Horarios de atención</h5>
           <hr/>
           <i class="fas fa-calendar-times"> Lunes a viernes</i>
           <p>de 9:00 am a 9:00 pm</p>
@@ -59,19 +84,20 @@
       <!-- /.row -->
     </div>
     <!-- /.container -->
-    <div class="footer">
+    <div class="footer bg-info">
       <div class="container">
-        <div class="row">
+        <div class="row ">
           <div class="col-11 col-md-4 offset-md-0 offset-3 ">
-            <img src="img/logo.png" width="40%">
+            <img src="img/logo.png" width="50%">
+            <br></br>
           </div>
           <div class=" col-10 col-md-8  offset-md-0 offset-1">
             <ul class="list-unstyled nav justify-content">
-              <li ><i class="px-3 px-lg-5 fab fa-blogger"></i></li>
-              <li ><i class=" px-3 px-lg-5 fab fa-twitter"></i></li>
-              <li ><i class="px-3 px-lg-5 fab fa-facebook"></i></li>
+              <li ><i class="pl-sm-5 pr-sm-5 px-3 px-lg-5 fab fa-blogger"></i></li>
+              <li ><i class=" pl-sm-5 pr-sm-5 px-3 px-lg-5 fab fa-twitter"></i></li>
+              <li ><i class="pl-sm-5 px-3 px-lg-5 fab fa-facebook"></i></li>
             </ul>
-            <p>Tehuacan Puebla Todos los derechos reservados todo esta bien ponganos 10</p>
+            <p style="color:white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime reiciendis odio tempora aut dignissimos debitis dolor aspernatur fuga ratione praesentium.</p>
           </div>
           <div class="clearfix"></div>
         </div>
@@ -81,4 +107,6 @@
     </div>
     <!-- /.footer -->
   </body>
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </html>
